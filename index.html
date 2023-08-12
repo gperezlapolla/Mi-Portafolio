@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:blanchedalmond;
+        }
+
+        .grid-item {
+            transition: transform 0.3s, box-shadow 0.3s;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .grid-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    <title>Landing Page</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Bienvenido al Portafolio de proyectos de <br> Pérez Lapolla</h1>
+        <div class="row">
+            <div class="col-md-6 col-lg-3 grid-item" onclick="window.location.href = 'https://gperezlapolla.github.io/Buffet-de-Especialidades/';">
+                <div class="card">
+                    <img src="Assets/Imágenes/Portada Restaurant.png" class="card-img-top" alt="Proyecto Buffet">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto menú Restaurant</h5>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 grid-item" onclick="window.location.href = 'https://gperezlapolla.github.io/Serpientes-Venenosas/';">
+                <div class="card">
+                    <img src="Assets/Imágenes/Portada serpientes.png" class="card-img-top" alt="Web Serpientes venenosas">
+                    <div class="card-body">
+                        <h5 class="card-title">Web de las 5 serpientes más venenosas del mundo</h5>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 grid-item" onclick="window.location.href = 'https://gperezlapolla.github.io/Desafio_5/';">
+                <div class="card">
+                    <img src="Assets/Imágenes/Desafío Nº5.png" class="card-img-top" alt="Imagen 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Tarea Nº5 diplomado Full Stack Developer Desafío LATAM</h5>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 grid-item" onclick="window.location.href = 'https://gperezlapolla.github.io/FerreterIa-LATAM/';">
+                <div class="card">
+                    <img src="Assets/Imágenes/Ferretería.png" class="card-img-top" alt="Ferretería LATAM">
+                    <div class="card-body">
+                        <h5 class="card-title">Landing Page Ferretería LATAM</h5>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
